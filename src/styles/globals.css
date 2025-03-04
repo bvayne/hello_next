@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --swiper-pagination-bottom: 0;
+  --swiper-pagination-color: #000;
+  --swiper-pagination-bullet-inactive-color: #000;
+}
