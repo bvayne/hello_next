@@ -32,6 +32,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         className="h-full w-full rounded-lg object-cover object-center shadow-md"
         src={img_preview}
         alt={title}
+        width={300}
+        height={400}
       />
       <div className="absolute bottom-20 left-0 right-0 top-0 flex flex-col items-center justify-center p-4 text-white">
         <div className="text-lg font-bold text-white">
